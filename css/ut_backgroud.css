@@ -1,0 +1,69 @@
+/* #region Backgrounds */
+.bg-1 {
+  background: var(--c1);
+}
+.bg-2 {
+  background: var(--c2);
+}
+.bg-3 {
+  background: var(--c3);
+}
+.bg-4 {
+  background: var(--c4);
+}
+.bg-5 {
+  background: var(--c5);
+}
+.bg-6 {
+  background: var(--c6);
+}
+.bg-7 {
+  background: var(--c7);
+}
+.bg-8 {
+  background: var(--c8);
+}
+.bg-9 {
+  background: var(--c9);
+}
+.bg-10 {
+  background: var(--c10);
+}
+.bg-11 {
+  background: var(--c11);
+}
+.bg-12 {
+  background: var(--c12);
+}
+.bg-c13 {
+  background: var(--c13);
+}
+.bg-p1 {
+  background: var(--p1);
+}
+.bg-p2 {
+  background: var(--p2);
+}
+.bg-p3 {
+  background: var(--p3);
+}
+.bg-p4 {
+  background: var(--p4);
+}
+.bg-p5 {
+  background: var(--p5);
+}
+
+.bg-linear-1 {
+  background: linear-gradient(180deg, var(--c11) 85%, var(--c12) 85%);
+}
+
+.bg-linear-2 {
+  background: linear-gradient(
+    180deg,
+    var(--w) 5%,
+    var(--c11) 5%,
+    var(--c11) 95%,
+    var(--w) 95%
+  );
+}
