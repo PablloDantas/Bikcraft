@@ -4,6 +4,7 @@
 /* utilidades */
 @import "./utilidades/backgroud.css";
 @import "./utilidades/botoes.css";
+@import "./utilidades/containers.css";
 @import "./utilidades/cores.css";
 @import "./utilidades/tipografia.css";
 
@@ -11,8 +12,9 @@
 @import "./global/header.css";
 @import "./global/footer.css";
 
-/* Páginas*/
+/* Página: Home*/
 @import "./home/main.css";
+@import "./home/tecnologia.css";
 
 /* Articles */
 @import "./bicicletas/bicicletas-lista.css";

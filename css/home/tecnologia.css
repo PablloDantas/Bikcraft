@@ -1,0 +1,42 @@
+.tecnologia-bg {
+  box-shadow: inset 0px -80px var(--c0), inset 0px 80px var(--c0);
+}
+.tecnologia {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+.tecnologia-imagem img {
+  object-fit: cover;
+  object-position: left;
+  height: 100%;
+  width: 100%;
+}
+
+.tecnologia-conteudo {
+  padding: 160px 0px;
+}
+
+.tecnologia-conteudo h2 {
+  margin-bottom: 32px;
+}
+
+.tecnologia-conteudo-p1 {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.tecnologia-conteudo .botao-1 {
+  margin-bottom: 80px;
+}
+
+.tecnologia-conteudo-t1 {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.tecnologia-caracteristicas {
+  display: flex;
+  gap: 40px;
+}
