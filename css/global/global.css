@@ -1,4 +1,5 @@
 :root {
+  --c0: #ffffff;
   --c1: #f7f7f7;
   --c2: #ededed;
   --c3: #deedee;
@@ -11,7 +12,6 @@
   --c10: #2e2e2e;
   --c11: #111111;
   --c12: #000000;
-  --c13: #ffffff;
   --p1: #ffbb00;
   --p2: #e4a30b;
   --p3: #a66f00;
@@ -30,8 +30,8 @@ body {
 }
 
 a {
-  text-decoration: none;
   color: inherit;
+  text-decoration: none;
 }
 
 img {
@@ -39,4 +39,8 @@ img {
   height: auto;
   display: block;
   border-radius: 4px;
+}
+
+ul {
+  list-style-type: none;
 }

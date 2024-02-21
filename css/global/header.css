@@ -15,6 +15,23 @@
 }
 
 .header-menu a {
+  display: inline-block;
   padding: 16px 0px;
-  color: var(--c1);
+  color: var(--c0);
+  position: relative;
+}
+
+.header-menu a:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
+  background: var(--c0);
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
+}
+
+.header-menu a:hover:after {
+  width: 100%;
 }

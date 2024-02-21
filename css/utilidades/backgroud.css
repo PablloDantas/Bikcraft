@@ -1,4 +1,6 @@
-/* #region Backgrounds */
+.bg-c0 {
+  background: var(--c0);
+}
 .bg-1 {
   background: var(--c1);
 }
@@ -34,9 +36,6 @@
 }
 .bg-12 {
   background: var(--c12);
-}
-.bg-c13 {
-  background: var(--c13);
 }
 .bg-p1 {
   background: var(--p1);

@@ -1,7 +1,5 @@
-/* global */
+/* global resetes e variáveis*/
 @import "./global/global.css";
-@import "./global/header.css";
-@import "./global/footer.css";
 
 /* utilidades */
 @import "./utilidades/backgroud.css";
@@ -9,5 +7,12 @@
 @import "./utilidades/cores.css";
 @import "./utilidades/tipografia.css";
 
-/* home */
+/* Conteúdos globais */
+@import "./global/header.css";
+@import "./global/footer.css";
+
+/* Páginas*/
 @import "./home/main.css";
+
+/* Articles */
+@import "./bicicletas/bicicletas-lista.css";
