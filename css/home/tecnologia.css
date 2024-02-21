@@ -40,3 +40,12 @@
   display: flex;
   gap: 40px;
 }
+
+.tecnologia-caracteristicas h3 {
+  margin-bottom: 8px;
+}
+
+.tecnologia-caracteristicas img {
+  width: 24px;
+  margin-bottom: 8px;
+}
