@@ -1,0 +1,56 @@
+.seguros {
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+.seguros h1 {
+  margin-bottom: 60px;
+}
+
+.seguros-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.seguros-blocos {
+  position: relative;
+  border-radius: 10px;
+  padding: 32px 32px 32px 60px;
+}
+
+.seguros-blocos li {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.seguros-blocos li::before {
+  content: url("/img/icones/lista.svg");
+  position: absolute;
+  left: -20px;
+}
+
+.seguros-blocos-titulo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.seguros-blocos-titulo-preço {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.seguros-blocos-titulo-preço-periodo {
+  position: absolute;
+  bottom: -12px;
+}
+
+#botao-prata {
+  background: var(--c10);
+  color: var(--c4);
+  position: absolute;
+  bottom: 32px;
+}
