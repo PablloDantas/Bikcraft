@@ -1,0 +1,48 @@
+.footer {
+  display: grid;
+  padding-top: 60px;
+  padding-bottom: 32px;
+}
+
+.footer-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 120px;
+  margin-bottom: 80px;
+}
+
+.footer-conteudo-contato {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.footer-conteudo h2 {
+  margin-bottom: 32px;
+}
+
+.footer-conteudo span {
+  margin-bottom: 12px;
+}
+
+.footer-conteudo span:nth-child(odd)::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: var(--c5);
+  opacity: 0.1;
+  display: flex;
+  margin-top: 12px;
+}
+
+.footer-conteudo-contato-redes {
+  display: flex;
+  padding-top: 12px;
+  gap: 32px;
+}
+
+.footer-conteudo-informacoes {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
