@@ -21,5 +21,6 @@
 @import "./home/depoimento.css";
 @import "./home/seguros.css";
 
-/* Página: Home*/
+/* Página: bicicletas*/
 @import "./bicicletas/main.css";
+@import "./bicicletas/nimbus/main.css";
